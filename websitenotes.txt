@@ -1,0 +1,32 @@
+//HTML there is a button on the page
+
+//class example
+<div  class="myclasses">Hello one <div>
+classes not unique
+IDS are unique
+
+attribute extend properties
+<img> <img src= "flowers.jpg">
+
+
+<!doctype html>
+<html>
+    <head> //settings
+      <title></title>
+    </head>
+
+    <body> //content
+      <h1>Hello World</h>
+    </body>
+</html>
+
+//CSS ex.button on page is blue
+//start with selector-part you want to style applied too (ex p of paragraph)
+//ex.
+p {
+  color: white;
+  font-weight: bold;
+  background color: black;
+}
+
+//Bootstrap- make website look good on phone and website
