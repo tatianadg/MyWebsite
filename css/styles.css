@@ -1,9 +1,10 @@
+/* INDEX.html css part */
+
 body {
 	font-family: "Raleway", arial;
 }
 
-
-header { 
+header {
 	background-image: url("../images/sandiego.jpg");
 	height: 600px;
 	width:100%;
@@ -15,6 +16,13 @@ header {
 nav {
 	height: 75px;
 	line-height: 75px;
+}
+
+nav2 {
+	height: 75px;
+	line-height: 75px;
+	color: white;
+	background-color: black;
 }
 
 h1 {
@@ -29,7 +37,7 @@ h3 {
 	font-size: 16px;
 }
 
-.buy {
+.button {
 	color: white;
 	font-size: 16px;
 	background-color: #666666;
@@ -37,14 +45,13 @@ h3 {
 	line-height: 90px;
 	border-radius: 6px;
 	margin-top: 80px;
-
 }
 
 .row {
 	color: #252527;
 	padding: 50px 0px 50px 0px;
 	border-bottom: 1px solid #f1f1f1;
-	background-color: #9df9f0;
+	background-color: #74b7f2;
 }
 
 p {
@@ -70,12 +77,12 @@ h2 {
 	background-size: cover;
 }
 
-#lightning {
+#meee {
 	background-image: url("../images/mybody.png");
 
 }
 
-#cloud {
+#shpe {
 	background-image: url("../images/shpe.png");
 }
 
@@ -83,6 +90,111 @@ h2 {
 	background-image: url("../images/people.png");
 }
 
-.nav-but a:hover {
-	background-color:black;
+.nav2-but a {
+	color: black;
+	padding: 5px;
+
+}
+
+.nav2-but a:hover {
+	background-color:#333;
+	border-radius: 3px;
+}
+
+
+/* ABOUT.html css part */
+
+/* FOR MAP */
+
+#map {
+	max-width: 512px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+header2 {
+	color: black;
+	height: 600px;
+	width:100%;
+	background-size: cover;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.row2 {
+	color: rebeccapurple;
+	padding: 60px 10px 400px 10px; /*top, right, bottom, and left*/
+	background-color: #9df9f0;
+}
+
+h4 {
+	font-family: "Raleway", arial;
+	color: navy;
+	font-size: 4.0em;
+}
+
+
+/* CONTACT.html css part */
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* To give the same size to all text field */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}
+
+.button2 {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+
+button2 {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
 }
