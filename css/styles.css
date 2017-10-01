@@ -1,74 +1,94 @@
-/* INDEX.html css part */
+/* INDEX.HTML CSS CODE */
 
 body {
 	font-family: "Raleway", arial;
 }
 
+/* Header for Index Page properties */
 header {
-	background-image: url("../images/sandiego.jpg");
-	height: 600px;
+	background-image: url("../images/mexico_flag1.jpg");
+	height: 1000px;
 	width:100%;
 	background-size: cover;
 	text-align: center;
 	font-weight: lighter;
 }
 
+/*Navigation bar for all pages*/
 nav {
 	height: 75px;
 	line-height: 75px;
 }
 
-nav2 {
-	height: 75px;
-	line-height: 75px;
-	color: white;
-	background-color: black;
+/*Each links properties */
+.nav-but a {
+	color: #000;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: normal;
+	border: 1px solid black;
+	border-radius: 5px;
 }
 
+.nav-but a:hover {
+	background-color:#000;
+}
+
+/* Tatiana Diaz-Gallegos - Header */
 h1 {
+	margin-top: 90px;
 	font-family: "Raleway", arial;
-	color: white;
-	font-size: 4.0em;
+	font-weight: lighter;
+	color: #111;
+	font-size: 8.0em;
 }
 
-h3 {
+/* CE Student - Header*/
+h2 {
+	margin-top: 175px;
 	font-family: "Raleway", arial;
-	color: #d8d8d8;
-	font-size: 16px;
+	color: black;
+	font-size: 27px;
 }
 
+/* LinkedIn Button*/
 .button {
-	color: white;
-	font-size: 16px;
-	background-color: #666666;
+	color: black;
+	font-size: 23px;
+	background-color: #AF473C;
 	padding: 10px 40px 10px 40px;
 	line-height: 90px;
 	border-radius: 6px;
 	margin-top: 80px;
 }
 
+/* Row class properties*/
 .row {
 	color: #252527;
 	padding: 50px 0px 50px 0px;
 	border-bottom: 1px solid #f1f1f1;
-	background-color: #74b7f2;
+	background-color: #945D60;
 }
 
+/* About me -Section */
+h3 {
+	text-align: center;
+	font-size: 33px;
+	font-weight: normal;
+	color: white;
+}
+
+/* Paragraph properties*/
 p {
 	text-align: center;
 	width: 90%;
-	max-width: 400px;
+	max-width: 500px;
 	margin: 0 auto;
-
+	font-size: 18px;
+	color: white;
 }
 
-h2 {
-	text-align: center;
-	font-size: 25px;
-	font-weight: normal;
-
-}
-
+/* Icon properties (images) */
 .icon {
 	width: 100px;
 	height: 100px;
@@ -77,42 +97,54 @@ h2 {
 	background-size: cover;
 }
 
+/* Image of me */
 #meee {
 	background-image: url("../images/mybody.png");
-
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
 }
 
+/* Image of SHPE */
 #shpe {
 	background-image: url("../images/shpe.png");
 }
 
+/* Image of people */
 #people {
-	background-image: url("../images/people.png");
+	background-image: url("../images/alianza_latina.jpeg");
 }
 
-.nav2-but a {
-	color: black;
-	padding: 5px;
-
-}
-
-.nav2-but a:hover {
-	background-color:#333;
-	border-radius: 3px;
-}
-
-
-/* ABOUT.html css part */
+/* --------------------------------------------------------------------- */
+/* ABOUT.HTML CSS CODE */
 
 /* FOR MAP */
-
 #map {
 	max-width: 512px;
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
 
+/* About me -Header */
+h4 {
+	margin-top: 120px;
+	font-family: "Raleway", arial;
+	font-weight: lighter;
+	color: #111;
+	font-size: 5.0em;
+}
 
+/* My Hometown -Header */
+h5 {
+	margin-top: 80px;
+	font-family: "Raleway", arial;
+	color: black;
+	font-size: 27px;
+}
+
+/* Header for About Page properties */
 header2 {
 	color: black;
 	height: 600px;
@@ -122,79 +154,50 @@ header2 {
 	font-weight: lighter;
 }
 
+/* Row2 class properties */
 .row2 {
-	color: rebeccapurple;
-	padding: 60px 10px 400px 10px; /*top, right, bottom, and left*/
-	background-color: #9df9f0;
+	color: black;
+	padding: 60px 10px 250px 10px; /*top, right, bottom, and left*/
+	background-color: #626E60;
 }
 
-h4 {
-	font-family: "Raleway", arial;
-	color: navy;
-	font-size: 4.0em;
+/* --------------------------------------------------------------------- */
+/* PROJECTS.HTML CSS CODE */
+
+/* Header fot Projects page */
+header4 {
+	background-image: url("../images/mexico_flag2.jpg");
+	height: 1000px;
+	width:100%;
+	background-size: cover;
+	text-align: center;
+	font-weight: lighter;
+}
+
+/* See what I'm doing - Header */
+h6 {
+	text-align: center;
+	font-size: 33px;
+	font-weight: normal;
+	color: #3C3C3C;
 }
 
 
-/* CONTACT.html css part */
+/* --------------------------------------------------------------------- */
+/* VOLUNTEER.HTML CSS CODE */
 
-form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* To see the outline of the form */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-}
-form div + div {
-    margin-top: 1em;
+/* Multiple images rotating */
+placeholderdiv {
+	margin: 0 auto;
+	padding: 100px;/*top, right, bottom, and left*/
+	text-align: center;
+	align-items: center;
+	position:absolute;
 }
 
-label {
-    /* To make sure that all labels have the same size and are properly aligned */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-
-input, textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-
-    /* To give the same size to all text field */
-    width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
-}
-
-input:focus, textarea:focus {
-    /* To give a little highlight on active elements */
-    border-color: #000;
-}
-
-textarea {
-    /* To properly align multiline text fields with their labels */
-    vertical-align: top;
-
-    /* To give enough room to type some text */
-    height: 5em;
-
-    /* To allow users to resize any textarea vertically
-       It does not work on all browsers */
-    resize: vertical;
-}
-
-.button2 {
-    /* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
-}
-
-button2 {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: .5em;
+/* Row3 class properties */
+.row3 {
+	color: black;
+	padding: 60px 10px 550px 10px; /*top, right, bottom, and left*/
+	background-color: #AF473C;
 }
